@@ -596,3 +596,8 @@ iframe {
     padding-bottom: 0px !important;
     margin-bottom: -8px;
 }
+
+.mdl-button--fab.mdl-button--colored {
+    background: #E65100;
+    color: #fff;
+}
