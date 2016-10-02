@@ -553,3 +553,12 @@ a img{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.mdl-mega-footer--social-btn, .mdl-mega-footer__social-btn {
+width: 36px;
+height: 36px;
+padding: 0;
+margin: 0;
+background-color: #FAFAFA;
+border: none;
+}
