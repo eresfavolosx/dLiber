@@ -691,3 +691,17 @@ iframe {
 .android-customized-section-text4 p {
     padding-top: 16px;
 }
+
+.board {
+    width: 165px;
+    height: 165px;
+    margin-bottom: 20px;
+}
+
+.cBoard {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
