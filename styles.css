@@ -604,8 +604,7 @@ iframe {
 
 .mdl-button--fab.mdl-button--colored:focus:not(:active) {
     background-color: #212121;
-    text-decoration: none;
-    
+    text-decoration: none
 }
 
 .mdl-button--fab.mdl-button--colored:hover {
@@ -625,4 +624,27 @@ iframe {
 .mdl-button--fab.mdl-button--colored {
     background: #212121;
     color: #fff;
+}
+
+#view-source {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+    text-decoration: none;
+    color: white;
+}
+
+.mdl-button .material-icons {
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.mdl-button .material-icons {
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
 }
