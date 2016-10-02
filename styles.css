@@ -610,6 +610,14 @@ iframe {
     background-color: #212121;
 }
 
+.android-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #E65100;
+}
+
+.android-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #E65100;
+}
+
 .mdl-button--fab.mdl-button--colored {
     background: #212121;
     color: #fff;
