@@ -412,6 +412,7 @@ a img {
 
 .android-card-container .mdl-card__media img {
     width: 100%;
+    height: 100%;
 }
 
 .android-card-container .mdl-card__title {
