@@ -731,5 +731,11 @@ iframe {
 
 .back-to-top {
     margin-top: -40px;
-    margin-left: 0;
+    margin-left: 0px;
+}
+
+.mdl-mega-footer--right-section a, .mdl-mega-footer__right-section a {
+    display: inline-block;
+    margin-left: 0px;
+    vertical-align: middle;
 }
