@@ -23,16 +23,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="College doesn't have to be expensive">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="images/Logo.png">
     <title>dLiber</title>
 
     <!-- Page styles -->
 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="Assets/JS/parallax.min.js">
+    </script>
+    <script type="text/javascript" src="Assets/JS/script.js">
+    </script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-deep_orange.min.css">
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.min.css">
     <link rel="stylesheet" href="Assets/CSS/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
+
 
 
     <!-- Page JS -->
@@ -72,8 +80,13 @@
                 <!-- Navigation -->
                 <div class="android-navigation-container">
                     <nav class="android-navigation mdl-navigation">
-                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">About Us</a>
-                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Contact</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#Who">Who</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#What">What</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#How">How</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#Where">Where</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#Social">Social</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#About">About</a>
+
                     </nav>
                 </div>
                 <span class="android-mobile-title mdl-layout-title">
@@ -87,18 +100,19 @@
             <div class="android-be-together-section mdl-typography--text-center">
                 <div class="logo-font android-slogan">college <span class="doesnt">doesn't</span> have to be expensive</div>
             </div>
-            <div class="android-screen-section mdl-typography--text-center">
+            <div class="android-screen-section mdl-typography--text-center" id="Who">
                 <a name="screens"></a>
                 <div class="mdl-typography--display-1-color-contrast">Who are we?</div>
                 <div class="y-separator mdl-grid">
                     <div class="mdl-cell mdl-cell--12-col android-screens-text">
-                        dLiber is a startup company whose main goal is to sell and buy students and professors used or new college supplies at a very cheap price and in an accessible manner. We have a roundtrip during the week visiting several universities and a website to offer our services to our customers no matter where they are and
+                        dLiber is a startup company whose main goal is to sell and buy students and professors used or new college supplies at a very cheap price and in an accessible manner. We have a roundtrip during the week visiting several universities and a website to offer
+                        our services to our customers no matter where they are.
                         <br>
-                        <br> <span class="intro-text"><span class="intro-text2">to help you generate and save while studying in college.</span>
+                        <br> <span class="intro-text"><span class="intro-text2">But above all, to help you generate and save while studying in college.</span>
                     </div>
                 </div>
             </div>
-            <div class="android-wear-section">
+            <div class="android-wear-section" id="What">
                 <div class="android-wear-band">
                     <div class="android-wear-band-text">
                         <div class="mdl-typography--display-2 mdl-typography--font-thin">What do we do?</div>
@@ -111,13 +125,9 @@
                     </div>
                 </div>
             </div>
-            <div class="android-customized-section">
+            <div class="android-customized-section" id="How">
                 <div class="android-customized-section-text">
-                    <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">How do we do it?</div>
-                    <p class="mdl-typography--font-light">
-                        Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
-                        <br>
-                    </p>
+                    <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast"><span class="how-do">How do</span> we do it?</div>
                 </div>
             </div>
             <div class="android-more-section">
@@ -125,7 +135,7 @@
                 <div class="android-card-container mdl-grid">
                     <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
                         <div class="mdl-card__media">
-                            <img src="images/onsite.jpg">
+                            <img src="images/onsite.jpg" class="local-image">
                         </div>
                         <div class="mdl-card__title">
                             <h4 class="mdl-card__title-text">On-Site</h4>
@@ -137,9 +147,9 @@
                         </div>
                     </div>
 
-                    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp card-online">
                         <div class="mdl-card__media">
-                            <img src="images/online.jpg">
+                            <img src="images/online.jpg" class="local-image">
                         </div>
                         <div class="mdl-card__title">
                             <h4 class="mdl-card__title-text">Buy online!</h4>
@@ -156,13 +166,14 @@
 
             <div class="android-customized-section3">
                 <div class="android-customized-section-text3">
-                    <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">No matter where you are </div>
+                    <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast"><span class="how-do">No matter where you are</span> we will always be abe to satisfy your college needs.
+                    </div>
                     <p class="mdl-typography--font-light">
-                        you will always have our services available to make your college needs a breeze. We have a roundtrip during the month visiting several universities to offer our services!
+
                         <br>
                     </p>
                 </div>
-                <div class="mdl-grid map">
+                <div class="mdl-grid map" id="Where">
                     <div class="mdl-cell mdl-cell--12-col" class="embed-responsive embed-responsive-16by9">
 
                         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=198ucQ1X-lg7_ArtaMSZRi9WSvyY"></iframe>
@@ -171,19 +182,57 @@
                 </div>
             </div>
             <div class="android-customized-section-text2">
-                <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised for you</div>
+                <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customized for you</div>
                 <p class="mdl-typography--font-light">
-                    The interactive map represents the different universities we will start visiting in our initial route.<br> Clock on the pins to see the universities and the days we will be visitin each one. Our available hours are from 9am-6pm, Monday
-                    thru Friday.
+                    We have a roundtrip during the month visiting several universities to offer our services!<br> The interactive map represents the different universities we will start visiting in our initial route. <br>Click on the pins to see the universities
+                    and the days we will be visitin each one. <br>Our available hours are from 9am-6pm, Monday thru Friday.
                     <br>
                 </p>
             </div>
 
-            <div class="android-customized-section-text4 mdl-grid">
-                <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast mdl-cell mdl-cell--12-col">
-                    Meet the dLiber team:
+            <div class="android-customized-section6" id="Social">
+                <div class="android-customized-section-text4">
+                    <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast social">College students already <span class="how-do">love us</span></div>
                 </div>
             </div>
+            <div class="android-more-section6">
+                <div class="android-section-title mdl-typography--display-1-color-contrast">
+                </div>
+                <div class="android-card-container2 mdl-grid">
+                    <figure class="snip1390 mdl-shadow--16dp">
+                        <img src="images/Elimar.jpg" alt="profile-sample3" class="profile" />
+                        <figcaption>
+                            <h2>Elimar Santiago</h2>
+                            <h4>Facebook</h4>
+                            <blockquote>¡Buenas tardes! Les escribo para decirles que me encanta su iniciativa. ¡Exito!
+                            </blockquote>
+                        </figcaption>
+                    </figure>
+                    <figure class="snip1390 hover mdl-shadow--16dp"><img src="images/Gianne.jpg" alt="profile-sample5" class="profile" />
+                        <figcaption>
+                            <h2>Gianne Rodriguez Rios</h2>
+                            <h4>Facebook</h4>
+                            <blockquote>¡Muy buena idea! La verdad es que hace falta algo así, las cosas para estudiar estan muy caras. ¡Exito! </blockquote>
+                        </figcaption>
+                    </figure>
+                    <figure class="snip1390 mdl-shadow--16dp"><img src="images/uva.jpg" alt="profile-sample6" class="profile" />
+                        <figcaption>
+                            <h2>uva.lectora</h2>
+                            <h4>Instagram</h4>
+                            <blockquote>This is exactly what I need in my college life... #nomasviajecitosa<br>RioPiedras</blockquote>
+                        </figcaption>
+                    </figure>
+
+                </div>
+            </div>
+
+
+            <div class="android-customized-section-text4 mdl-grid" id="About">
+                <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast mdl-cell mdl-cell--12-col title-Board">
+                    Meet the dLiber team
+                </div>
+            </div>
+
             <div class="mdl-grid cBoard">
                 <div class="mdl-cell mdl-cell--2-col mdl-typography--font-light">
                     <img src="images/board/Jaimar.jpg" alt="Human Resources" class="img-circle center-block board">

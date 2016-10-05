@@ -614,6 +614,7 @@ iframe {
 .map {
     padding-bottom: 0px !important;
     margin-bottom: -8px;
+    margin-top: -33px;
 }
 
 .mdl-button--fab.mdl-button--colored {
@@ -738,4 +739,159 @@ iframe {
     display: inline-block;
     margin-left: 0px;
     vertical-align: middle;
+}
+
+.mdl-cell--6-col, .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop {
+    width: calc(50% - 16px);
+    height: 561px;
+}
+
+.card-online {
+    width: calc(50% - 16px);
+    height: 561px;
+}
+
+.local-image {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, .2), 0 0px 0px 0 rgba(0, 0, 0, .19) !important;
+    transition: .4s;
+}
+
+.local-image:hover {
+    transform: scale(1.5);
+}
+
+.title-Board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-do {
+    color: #E65100;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+figure.snip1390 {
+    font-family: 'Roboto', Arial, sans-serif;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    height: 500px;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    background-color: #424242;
+    padding: 30px;
+    background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+figure.snip1390 *, figure.snip1390 *:before, figure.snip1390 *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+figure.snip1390 figcaption {
+    width: 100%;
+}
+
+figure.snip1390 h2, figure.snip1390 h4, figure.snip1390 blockquote {
+    margin: 0;
+}
+
+figure.snip1390 h2, figure.snip1390 h4 {
+    font-weight: 300;
+}
+
+figure.snip1390 h2 {
+    color: #ffffff;
+}
+
+figure.snip1390 h4 {
+    color: #a6a6a6;
+}
+
+figure.snip1390 blockquote {
+    font-size: 1em;
+    padding: 45px 20px 40px 50px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    position: relative;
+}
+
+figure.snip1390 blockquote:before {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 70px;
+    opacity: 0.25;
+    font-style: normal;
+    top: 0px;
+    left: 20px;
+}
+
+figure.snip1390 .profile {
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+    border: solid 5px #E65100;
+}
+
+.android-more-section6 {
+    background-color: #E0E0E0;
+}
+
+.android-customized-section6 {
+    background-color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.android-customized-section-text4 {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: black;
+}
+
+.android-more-section6 {
+    padding-top:
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 24px;
+}
+
+.social {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.android-card-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.android-card-container2 .mdl-card__media {
+    overflow: hidden;
+    background: transparent;
 }
